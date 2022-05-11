@@ -1,0 +1,7 @@
+[submodule "repo/matrix/skin.transparency"]
+	path = repo/matrix/skin.transparency
+	url = https://github.com/prostar113/skin.transparency
+[submodule "repo/matrix/service.skin.widgets"]
+	path = repo/matrix/service.skin.widgets
+	url = https://github.com/scott967/service.skin.widgets.git
+	branch = 0.0.33+matrix.4

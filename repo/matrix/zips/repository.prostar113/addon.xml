@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.prostar113" name="prostar113 Repo" version="1.0" provider-name="prostar113">
+	<extension point="xbmc.addon.repository" name="prostar113 Repo">
+		<dir minversion="19">
+			<info compressed="false">https://raw.githubusercontent.com/prostar113/repository.prostar113/master/repo/matrix/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/prostar113/repository.prostar113/master/repo/matrix/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/prostar113/repository.prostar113/master/repo/matrix/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>prostar113 All In One Kodi Repo</summary>
+		<description>prostar113 Kodi repo </description>
+		<platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.prostar113" name="prostar113 Repo" provider-name="prostar113" version="1.0">
-	<extension name="prostar113 Repo" point="xbmc.addon.repository">
+<addons><addon id="repository.prostar113" name="prostar113 Repo" version="1.0" provider-name="prostar113">
+	<extension point="xbmc.addon.repository" name="prostar113 Repo">
 		<dir minversion="19">
 			<info compressed="false">https://raw.githubusercontent.com/prostar113/repository.prostar113/master/repo/matrix/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/prostar113/repository.prostar113/master/repo/matrix/zips/addons.xml.md5</checksum>
@@ -16,14 +16,14 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="service.skin.widgets" name="Skin Widgets" provider-name="Martijn, phil65, scott967" version="0.0.33+matrix.4">
+</addon><addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33+matrix.4" provider-name="Martijn, phil65, scott967">
     <requires>
         <import addon="xbmc.json" version="12.0.0" />
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.simplejson" version="3.17.0+matrix.2" />
     </requires>
-    <extension library="default.py" point="xbmc.service" />
-	<extension library="default.py" point="xbmc.python.library" />
+    <extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.python.library" library="default.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="be_BY">Skin widgets</summary>
         <summary lang="da_DK">Widgets til Skins</summary>

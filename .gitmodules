@@ -5,3 +5,6 @@
 	path = repo/matrix/service.skin.widgets
 	url = https://github.com/scott967/service.skin.widgets.git
 	branch = 0.0.33+matrix.4
+[submodule "repo/nexus/a4kSubtitles"]
+	path = repo/nexus/a4kSubtitles
+	url = https://github.com/a4k-openproject/a4kSubtitles

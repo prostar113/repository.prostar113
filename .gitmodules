@@ -17,3 +17,4 @@
 [submodule "repo/nexus/service.skin.widgets"]
 	path = repo/nexus/service.skin.widgets
 	url = https://github.com/scott967/service.skin.widgets.git
+	branch = 0.0.35

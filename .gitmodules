@@ -8,3 +8,12 @@
 [submodule "repo/nexus/a4kSubtitles"]
 	path = repo/nexus/a4kSubtitles
 	url = https://github.com/a4k-openproject/a4kSubtitles
+[submodule "repo/nexus/script.artwork.beef"]
+	path = repo/nexus/script.artwork.beef
+	url = https://github.com/prostar113/script.artwork.beef
+[submodule "repo/nexus/skin.transparency"]
+	path = repo/nexus/skin.transparency
+	url = https://github.com/prostar113/skin.transparency
+[submodule "repo/nexus/service.skin.widgets"]
+	path = repo/nexus/service.skin.widgets
+	url = https://github.com/scott967/service.skin.widgets.git

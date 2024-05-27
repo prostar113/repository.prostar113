@@ -18,3 +18,6 @@
 	path = repo/nexus/service.skin.widgets
 	url = https://github.com/scott967/service.skin.widgets.git
 	branch = 0.0.35
+[submodule "repo/omega/skin.transparency"]
+	path = repo/omega/skin.transparency
+	url = https://github.com/prostar113/skin.transparency
